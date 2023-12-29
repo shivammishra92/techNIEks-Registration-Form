@@ -1,7 +1,7 @@
 *{
      box-sizing: border-box;
      margin: -5px;
-     padding: 5px
+     padding: 5px;
 }
 .container{
     max-width: 50%;
@@ -11,6 +11,7 @@
 }
 .container h1{
     /* border-color: red; */
+    font-family: sans-serif;
     font-size: 45px;
     color:red;
     text-align: center;
@@ -63,6 +64,7 @@ p.policy{
 
   label{
     color: white;
+    font-family: 'Nunito';
   }
 
 .inner-container{
@@ -111,8 +113,8 @@ color: red;
     width: 101%;
     background-color:rgb(31, 29, 29);
     border-radius: 10px;
-    opacity: 0.99;
-    
+    opacity: 0.9999;
+    font-family: 'Nunito';    
 }
 .nav ul{
     overflow: auto;
@@ -149,8 +151,8 @@ color: red;
     padding: 1px 10px;
 }
 
-.logo{
+#logo{
     display: none;
-    max-width: 10px;
-    max-height: 1px;
+    width: -10px;
+    height: -1px;
 }
